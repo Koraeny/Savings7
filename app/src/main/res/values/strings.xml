@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Savings7</string>
+    <string name="hint_current_savings">Enter your current savings</string>
+
+        <string name="savings_goal">Savings Goal</string>
+        <string name="hint_savings_goal">Enter your goal</string>
+        <string name="current_savings">Current Savings</string>
+    <string name="update_savings_button_text">Update Savings</string>
+
+
+        <string name="update_savings">Update Savings</string>
+    </resources>
+

@@ -1,0 +1,44 @@
+<!-- res/layout/activity_savings.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/savings_goal_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Savings Goal"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/savings_goal_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Enter your goal"/>
+
+    <TextView
+        android:id="@+id/current_savings_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current Savings"
+        android:textSize="18sp"
+        android:paddingTop="16dp"/>
+
+    <EditText
+        android:id="@+id/current_savings_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Enter your current savings"/>
+
+    <Button
+        android:id="@+id/update_savings_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Savings"
+        android:paddingTop="16dp"/>
+</LinearLayout>

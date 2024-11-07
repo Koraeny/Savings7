@@ -1,0 +1,5 @@
+<resources>
+    <color name="colorPrimary">#6200EE</color> <!-- Example Primary Color -->
+    <color name="colorAccent">#03DAC5</color> <!-- Accent Color -->
+    <color name="colorBackground">#F5F5F5</color> <!-- Background Color -->
+</resources>
